@@ -1,0 +1,105 @@
+.x
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.onerilenler
+{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 767px;
+  height: 48px;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(68, 68, 68);
+  padding-bottom: 6px;
+  margin-top: 18px;
+}
+.senin_icin_onerilenler
+{
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+.diger_hesaplar
+{
+  color: rgb(116, 115, 115);
+  padding-left: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.bottom_container 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom_part 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 115px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bottom_part_up 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 270px;
+}
+
+.bottom_part_down {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 270px;
+}
+
+.bottom_part div {
+  display: inline-block;
+  color: rgb(168, 168, 168);
+  padding-right: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+@media (max-width: 990px) 
+{
+  .bottom_part_up, .bottom_part_down
+  {
+    padding-left: 40px;
+  }
+  .senin_icin_onerilenler
+  {
+    padding-left: 145px;
+    padding-right: 60px;
+    padding-bottom: 36px;
+    border-color: black;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(245, 245, 245);
+  }
+  .diger_hesaplar
+  {
+    padding-left: 145px;
+    padding-bottom: 35px;
+  }
+}
